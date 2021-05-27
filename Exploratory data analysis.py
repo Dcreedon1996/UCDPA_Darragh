@@ -12,12 +12,14 @@ Y = df['Healthy life expectancy']
 # Plotting both seperately
 
 plt.scatter(X1, Y, alpha=0.75, c='blue')
+plt.title('Social support versus Life expectancy')
 plt.xlabel('Social support')
 plt.ylabel('Healthy life expectancy')
 
 plt.show()
 
 plt.scatter(X2, Y, alpha=0.75, c='red')
+plt.title('GDP per capita versus Life expectancy')
 plt.xlabel('Logged GDP per capita')
 plt.ylabel('Healthy life expectancy')
 
