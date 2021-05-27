@@ -24,7 +24,8 @@ n_bins = int(n_bins)
 # Plot the histogram
 plt.hist(df3['Generosity2020'], bins=n_bins, color='blue')
 
-# Label axes
+# Label axes + title
+_ = plt.title('Frequency of different Generosity Index values 2020')
 _ = plt.xlabel('Generosity index 2020 (%)')
 _ = plt.ylabel('count')
 
@@ -44,7 +45,8 @@ n_bins = int(n_bins)
 # Plot the histogram
 plt.hist(df3['Generosity2019'], bins=n_bins, color='red')
 
-# Label axes
+# Label axes + title
+_ = plt.title('Frequency of different Generosity Index values 2019')
 _ = plt.xlabel('Generosity index 2019 (%)')
 _ = plt.ylabel('count')
 
